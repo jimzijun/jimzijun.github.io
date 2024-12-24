@@ -46,7 +46,7 @@ export default function ResumePage() {
                         <CardTitle>Data Engineer</CardTitle>
                         <p className="text-gray-500">Bases, NielsenIQ</p>
                       </div>
-                      <p className="text-sm text-gray-500">03/2022 – Present</p>
+                      <p className="text-sm text-gray-500">03/2022 - Present</p>
                     </div>
                   </CardHeader>
                   <CardContent>

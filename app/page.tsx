@@ -12,7 +12,7 @@ export default function ResumePage() {
           <CardHeader className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Avatar className="w-24 h-24">
-                <AvatarImage src="/placeholder.svg?height=96&width=96" alt="Zijun Yi" />
+                <AvatarImage src="/favicon.ico?height=96&width=96" alt="Zijun Yi" />
                 <AvatarFallback>ZY</AvatarFallback>
               </Avatar>
               <div className="text-center sm:text-left">

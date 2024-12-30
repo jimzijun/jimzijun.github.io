@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { LinkedinIcon, MailIcon, PhoneIcon } from 'lucide-react'
 import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 export default function ResumePage() {
   return (
@@ -33,6 +34,13 @@ export default function ResumePage() {
                 <LinkedinIcon className="h-4 w-4" />
                 <span>linkedin.com/in/zijunyi</span>
               </Link>
+            </div>
+            <div className="mt-4 sm:mt-0">
+              <Button>
+                <a href="/Resume.pdf" download>
+                  Download PDF Resume
+                </a>
+              </Button>
             </div>
           </CardHeader>
           <CardContent className="space-y-8">

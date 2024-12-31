@@ -59,10 +59,10 @@ export default function ResumePage() {
                   </CardHeader>
                   <CardContent>
                     <ul className="list-disc pl-5 space-y-2">
-                      <li>Led development and deployment of simulation models, improving performance by 40% and reducing processing time by 30% through code and workflow optimizations.</li>
-                      <li>Enhanced system reliability and efficiency by profiling models and optimizing job scheduling, achieving 80% reduction in tickets for lost processes.</li>
-                      <li>Migrated infrastructure from Azure Batch to Kubernetes on AKS, eliminating cold start overhead and improving resource utilization.</li>
-                      <li>Improved system responsiveness and throughput for production model training and inference, enabling seamless scaling and better performance.</li>
+                      <li>Led development and deployment of simulation models, improving performance by 40% and reducing processing time by 30% through code and workflow optimizations. Overcame challenges with legacy systems and complex data integration, enabling a 30% increase in study size and shortening calibration workload by 25%, which accelerated project completion. Collaborated with cross-functional teams to ensure seamless implementation.</li>
+                      <li>Enhanced system reliability and efficiency by profiling models and optimizing job scheduling, addressing frequent job failures and system bottlenecks. This resulted in an 80% reduction in tickets for lost processes and jobs after migration. Communicated effectively with stakeholders to identify issues, decreasing operational costs and boosting user satisfaction across teams.</li>
+                      <li>Migrated infrastructure from Azure Batch to Kubernetes on AKS, eliminating cold start overhead and improving resource utilization, which increased operational efficiency. Faced and resolved challenges related to resource contention and deployment complexities, ensuring a smooth transition with minimal downtime. Coordinated closely with the DevOps team to streamline processes.</li>
+                      <li>Improved system responsiveness and throughput for production model training and inference, enabling seamless scaling and better performance. Collaborated with data scientists and engineers to optimize algorithms, leading to faster deployment of features and improved customer satisfaction. Facilitated regular communication between teams to align goals and deliverables.</li>
                     </ul>
                   </CardContent>
                 </Card>

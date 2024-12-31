@@ -30,7 +30,7 @@ const jobs = [
   }
 ];
 
-function formatResponsibility(responsibility) {
+function formatResponsibility(responsibility: string) {
   const parts = responsibility.split("**");
   return parts.map((part, index) => (
     index % 2 === 0 ? part : <strong key={index}>{part}</strong>

@@ -39,8 +39,9 @@ function formatResponsibility(responsibility) {
 
 export default function ResumePage() {
   return (
-    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-5xl mx-auto">
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-blue-50">
+      <div className="fixed inset-0 bg-blue-50"></div>
+      <div className="relative max-w-5xl mx-auto">
         <Card className="mb-8">
           <CardHeader className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">

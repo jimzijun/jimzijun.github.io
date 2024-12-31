@@ -66,6 +66,19 @@
  
     --ring: 217.2 32.6% 17.5%;
   }
+
+  body {
+    @apply text-foreground;
+    background: linear-gradient(
+      to bottom,
+      rgba(30, 64, 175, 0.1) 0%,
+      rgba(30, 64, 175, 0.1) 100%
+    );
+  }
+
+  html {
+    @apply bg-background;
+  }
 }
  
 @layer base {
@@ -73,7 +86,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
   }
 }
 
